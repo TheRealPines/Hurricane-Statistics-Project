@@ -1,4 +1,4 @@
-# Hurricane-Statistics-Project
+# Hurricane Statistics Project
 
 This all has to be done in C++.
 
