@@ -149,56 +149,55 @@ Sample INPUT: Infile1: A list of tropical storm id numbers
 
 Sample Input: Infile2: A list of storm names, id, life, date, 5 wind speeds, 2 rain fall readings and tornadoes spawned.
 
-Linda             162 8 1983 120 140 110 123 112 6 8 9
-Carla             194 6 1984 70 60 55 62 70 1 2 1
-Kathleen        173 4 1998 70 75 81 82 64 3 4 0
-Big Bertha     202 9 1990 160 162 155 160 166 9 10 10
-Mean Dean   136 7 1964 120 125 130 140 150 4 4 2
-Homer          402 5 1984 76 90 85 82 82 5 6 4
-Stever          328 7 1986 150 160 161 157 158 8 5 4
-Mike            153 4 1991 100 101 95 99 98 7 4 4
-Dave            433 4 1997 78 90 94 76 70 6 2 4
-Tom             567 5 1996 120 122 119 118 111 7 5 0
-Mary Lou     683 8 1902 135 140 150 140 135 7 8 4
-Lee              192 7 1911 104 106 109 99 97 5 2 0
-Mary Beth    417 5 1952 130 135 150 129 134 5 4 2
-Caroline        122 2 1997 76 75 74 77 74 2 1 0
-Barbara        420 5 1992 78 79 80 90 80 4 1 0
-Bad Bob       501 5 1900 120 122 121 130 125 4 2 2
-Chris            555 7 1961 100 99 98 97 95 3 1 1
-Phil               641 5 1970 120 125 122 121 111 4 1 2
-Mary            701 4 1972 78 79 80 81 75 3 2 0
-Mohammad  800 7 1976 97 98 100 110 109 5 2 2
- 
+<p>Linda             162 8 1983 120 140 110 123 112 6 8 9</p>
+<p>Carla             194 6 1984 70 60 55 62 70 1 2 1</p>
+<p>Kathleen        173 4 1998 70 75 81 82 64 3 4 0</p>
+<p>Big Bertha     202 9 1990 160 162 155 160 166 9 10 10</p>
+<p>Mean Dean   136 7 1964 120 125 130 140 150 4 4 2</p>
+<p>Homer          402 5 1984 76 90 85 82 82 5 6 4</p>
+<p>Stever          328 7 1986 150 160 161 157 158 8 5 4</p>
+<p>Mike            153 4 1991 100 101 95 99 98 7 4 4</p>
+<p>Dave            433 4 1997 78 90 94 76 70 6 2 4</p>
+<p>Tom             567 5 1996 120 122 119 118 111 7 5 0</p>
+<p>Mary Lou     683 8 1902 135 140 150 140 135 7 8 4</p>
+<p>Lee              192 7 1911 104 106 109 99 97 5 2 0</p>
+<p>Mary Beth    417 5 1952 130 135 150 129 134 5 4 2</p>
+<p>Caroline        122 2 1997 76 75 74 77 74 2 1 0</p>
+<p>Barbara        420 5 1992 78 79 80 90 80 4 1 0</p>
+<p>Bad Bob       501 5 1900 120 122 121 130 125 4 2 2</p>
+<p>Chris            555 7 1961 100 99 98 97 95 3 1 1</p>
+<p>Phil               641 5 1970 120 125 122 121 111 4 1 2</p>
+<p>Mary            701 4 1972 78 79 80 81 75 3 2 0</p>
+<p>Mohammad  800 7 1976 97 98 100 110 109 5 2 2</P>
 
 SAMPLE OUTPUT OUTFILE1 (First Page)
  
 
                             STORM SUMMARY SHEET
 
-Name         ID     Life        Date     Average      Average         Tornadoes         Storm
-                   in days             wind speed     rain fall        spawned          level
+<p>Name         ID     Life        Date     Average      Average         Tornadoes         Storm</p>
+<p>                   in days             wind speed     rain fall        spawned          level</p>
 
-Linda         162     8         1983      121           7                 9                3
-Carla         194     6         1984       63           1.5               1                0
-Kathleen      173     4         1998       74           3.5               0                0
-Big Bertha    202     9         1990      161           9.5               10               5
-Mean Dean     136     7         1964      133           4                 2                4
-Homer         402     5         1984       83           5.5               4                1
-Stever        328     7         1986      157           6.5               4                5
-Mike          153     4         1991       99           5.5               4                2
-Dave          433     4         1997       82           4                 4                1
-Tom           567     5         1996      118           6                 0                3
-Mary Lou      683     8         1902      140           7.5               4                4
-Lee           192     7         1911      103           3.5               0                2
-Mary Beth     417     5         1952      136           4.5               2                4
-Caroline      122     2         1997       75           1.5               0                1
-Barbara       420     5         1992       81           2.5               0                1
-Bad Bob       501     5         1900      124           3                 2                3
-Chris         555     7         1961       98           2                 1                2
-Phil          641     5         1970      120           2.5               2                3
-Mary          701     4         1972       79           2.5               0                1
-Mohammad      800     7         1976      103           3.5               2                2
+<p>Linda         162     8         1983      121           7                 9                3</p>
+<p>Carla         194     6         1984       63           1.5               1                0</p>
+<p>Kathleen      173     4         1998       74           3.5               0                0</p>
+<p>Big Bertha    202     9         1990      161           9.5               10               5</p>
+<p>Mean Dean     136     7         1964      133           4                 2                4</p>
+<p>Homer         402     5         1984       83           5.5               4                1</p>
+<p>Stever        328     7         1986      157           6.5               4                5</p>
+<p>Mike          153     4         1991       99           5.5               4                2</p>
+<p>Dave          433     4         1997       82           4                 4                1</p>
+<p>Tom           567     5         1996      118           6                 0                3</p>
+<p>Mary Lou      683     8         1902      140           7.5               4                4</p>
+<p>Lee           192     7         1911      103           3.5               0                2</p>
+<p>Mary Beth     417     5         1952      136           4.5               2                4</p>
+<p>Caroline      122     2         1997       75           1.5               0                1</p>
+<p>Barbara       420     5         1992       81           2.5               0                1</p>
+<p>Bad Bob       501     5         1900      124           3                 2                3</p>
+<p>Chris         555     7         1961       98           2                 1                2</p>
+<p>Phil          641     5         1970      120           2.5               2                3</p>
+<p>Mary          701     4         1972       79           2.5               0                1</p>
+<p>Mohammad      800     7         1976      103           3.5               2                2</p>
 
 Total number of records =20
 Total number of hurricanes=18
@@ -214,14 +213,14 @@ NOTE: The following will be on a separate sheet of paper for each hurricane leve
 
 Hurricane Level 1
 
-Name            Id         Life         Average         Average         Tornadoes         Date
-                          in days     wind speed       rain fall           spawned
+<p>Name            Id         Life         Average         Average         Tornadoes         Date</p>
+<p>                          in days     wind speed       rain fall           spawned</p>
 
-Barbara          420        5             81                 2.5           0                 1992
-Caroline         122        2             75                 1.5           0                 1997
-Dave             433        4             82                 4             4                 1997
-Homer            402        5             83                 5.5           4                 1984
-Mary             701        4             79                 2.5           0                 1972
+<p>Barbara          420        5             81                 2.5           0                 1992</p>
+<p>Caroline         122        2             75                 1.5           0                 1997</p>
+<p>Dave             433        4             82                 4             4                 1997</p>
+<p>Homer            402        5             83                 5.5           4                 1984</p>
+<p>Mary             701        4             79                 2.5           0                 1972</p>
 
 Total number of Level 1 hurricanes is 5.
 Average Life span in days of Level 1 hurricanes is 4.
@@ -235,13 +234,13 @@ Hurricane Level 2
 
 
  
-Name           Id         Life      Average         Average         Tornadoes           Date
-                                    in days     wind speed          rain fall         spawned
+<p>Name           Id         Life      Average         Average         Tornadoes           Date</p>
+<p>                                    in days     wind speed          rain fall         spawned</p>
 
-Chris          555          7       98            2                    1                 1961
-Lee            192          7       103           3.5                  0                 1911
-Mike           153          4        99           5.5                  4                 1991
-Mohammad       800          7       103           3.5                  2                 1976
+<p>Chris          555          7       98            2                    1                 1961</p>
+<p>Lee            192          7       103           3.5                  0                 1911</p>
+<p>Mike           153          4        99           5.5                  4                 1991</p>
+<p>Mohammad       800          7       103           3.5                  2                 1976</p>
  
  
 
@@ -257,13 +256,13 @@ Hurricane Level 3
 
 
  
-Name                 Id     Life         Average         Average            Tornadoes             Date
-                            in days     wind speed       rain fall           spawned
+<p>Name                 Id     Life         Average         Average            Tornadoes             Date</p>
+<p>                            in days     wind speed       rain fall           spawned</p>
 
-Bad Bob             501     5                 124                 3              2                 1900
-Linda               162     8                 121                 7              9                 1983
-Phil                641     5                 120                 2.5            2                 1970
-Tom                 567     5                 118                 6              0                 1996
+<p>Bad Bob             501     5                 124                 3              2                 1900</p>
+<p>Linda               162     8                 121                 7              9                 1983</p>
+<p>Phil                641     5                 120                 2.5            2                 1970</p>
+<p>Tom                 567     5                 118                 6              0                 1996</p>
  
  
 
@@ -279,13 +278,13 @@ Hurricane Level 4
 
  
  
-Name         Id         Life         Average            Average                Tornadoes         Date
-                                    in days            wind speed              rain fall           spawned
+<p>Name         Id         Life         Average            Average                Tornadoes         Date</p>
+<p>                                    in days            wind speed              rain fall           spawned</p>
  
 
-Mary Beth    417         5             136                 4.5                     2                 1952
-Mary Lou     683         8             140                 7.5                     4                 1902
-Mean Dean    136         7             133                 4                       2                 1964
+<p>Mary Beth    417         5             136                 4.5                     2                 1952</p>
+<p>Mary Lou     683         8             140                 7.5                     4                 1902</p>
+<p>Mean Dean    136         7             133                 4                       2                 1964</p>
  
  
 
@@ -301,12 +300,12 @@ Hurricane Level 5
 
  
  
-Name              Id         Life         Average         Average         Tornadoes         Date
-                            in days     wind speed       rain fall           spawned
+<p>Name              Id         Life         Average         Average         Tornadoes         Date</p>
+<p>                            in days     wind speed       rain fall           spawned</p>
  
 
-Big Bertha       202         9             161                 9.5                 10                 1990
-Stever           328         7             157                 6.5                    4                 1986
+<p>Big Bertha       202         9             161                 9.5                 10                 1990</p>
+<p>Stever           328         7             157                 6.5                    4                 1986</p>
  
  
 
