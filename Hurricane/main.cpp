@@ -16,38 +16,52 @@ using namespace std;
 struct info
 {
 	char hurricaneName[11];
-	int ID;
-	int life;
-	int date;
-	float avgWindSpeed;
-	float avgRainfall;
-	int totalTornadoes;
+	int ID[20];
+	int life[20];
+	int date[20];
+	float avgWindSpeed[20];
+	float avgRainfall[20];
+	int totalTornadoes[20];
 };
 
 int main()
 {
-	int wind1, wind2, wind3, wind4, wind5, rain1, rain2;
 	info hurricane1;
-	ifstream tropical;	tropical.get(hurricane1.hurricaneName, 10);
+	ifstream infile;
+	infile.open("storms.txt");
+	infile.get(hurricane1.hurricaneName, 10);
 
-	tropical.open("storms.txt");
+	while(!infile.eof())
+    {
 
-	tropical.get(hurricane1.hurricaneName, 10);
-	cout << hurricane1.hurricaneName;
-	tropical >> hurricane1.ID >> hurricane1.life >> hurricane1.date >> wind1 >> wind2 >> wind3 >> wind4 >> wind5 >> rain1 >> rain2 >> hurricane1.totalTornadoes;
-	tropical.ignore(256, '\n');
-		hurricane1.avgWindSpeed = (wind1 + wind2 + wind3 + wind4 + wind5) / 5;
-		hurricane1.avgRainfall = (rain1 + rain2) / 2;
+            float tWind = 0, tRain = 0;
+                for(int i=0; i<20;i++)
+                {
+                    cout << i << endl;
+                    infile >> hurricane1.ID[i];
+                    infile >> hurricane1.life[i];
+                    infile >> hurricane1.date[i];
+                        for(int j = 0;j<5;j++)
+                        {
 
-	cout << hurricane1.ID << " ";
-	cout << hurricane1.life << " ";
-	cout << hurricane1.date << " ";
-	cout << hurricane1.avgWindSpeed << " ";
-	cout << hurricane1.avgRainfall << " ";
-	cout << hurricane1.totalTornadoes << " ";
-	cout << endl << endl;
+                            cout << j << endl;
+                            infile >> tWind;
+                            tWind += tWind;
+                            cout << tWind<< endl;
+                        }
+                        for(int k = 0; k<2;k++)
+                        {
+                            cout << k << endl;
+                            infile >> tRain;
+                            tRain += tRain;
+                        }
+                    infile >> hurricane1.totalTornadoes[i];
 
+                }
+            infile.ignore(256,'\n');
+            infile.get(hurricane1.hurricaneName, 10);
 
+    }
 
 
 	return 0;
